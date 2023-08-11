@@ -21,9 +21,6 @@ if __name__ == '__main__':
             plt.axis('off')
             plt.savefig(save_name, bbox_inches='tight', pad_inches = 0)
         else:
-            result_img = cv2.cvtColor(
-                result_img,
-                cv2.COLOR_RGB2BGR)
             cv2.imwrite(save_name, result_img)
 
     # test draw_bboxes
@@ -40,9 +37,6 @@ if __name__ == '__main__':
             plt.axis('off')
             plt.savefig(save_name, bbox_inches='tight', pad_inches=0)
         else:
-            result_img = cv2.cvtColor(
-                result_img,
-                cv2.COLOR_RGB2BGR)
             cv2.imwrite(save_name, result_img)
 
     # test draw_lines
@@ -59,9 +53,6 @@ if __name__ == '__main__':
             plt.axis('off')
             plt.savefig(save_name, bbox_inches='tight', pad_inches=0)
         else:
-            result_img = cv2.cvtColor(
-                result_img,
-                cv2.COLOR_RGB2BGR)
             cv2.imwrite(save_name, result_img)
 
     # test draw_texts
@@ -78,9 +69,6 @@ if __name__ == '__main__':
             plt.axis('off')
             plt.savefig(save_name, bbox_inches='tight', pad_inches=0)
         else:
-            result_img = cv2.cvtColor(
-                result_img,
-                cv2.COLOR_RGB2BGR)
             cv2.imwrite(save_name, result_img)
 
     # test draw_circles
@@ -96,9 +84,6 @@ if __name__ == '__main__':
             plt.axis('off')
             plt.savefig(save_name, bbox_inches='tight', pad_inches=0)
         else:
-            result_img = cv2.cvtColor(
-                result_img,
-                cv2.COLOR_RGB2BGR)
             cv2.imwrite(save_name, result_img)
 
     # test draw_polygons
@@ -115,9 +100,6 @@ if __name__ == '__main__':
             plt.axis('off')
             plt.savefig(save_name, bbox_inches='tight', pad_inches=0)
         else:
-            result_img = cv2.cvtColor(
-                result_img,
-                cv2.COLOR_RGB2BGR)
             cv2.imwrite(save_name, result_img)
 
     # test draw_binary_masks
@@ -136,9 +118,6 @@ if __name__ == '__main__':
             plt.axis('off')
             plt.savefig(save_name, bbox_inches='tight', pad_inches=0)
         else:
-            result_img = cv2.cvtColor(
-                result_img,
-                cv2.COLOR_RGB2BGR)
             cv2.imwrite(save_name, result_img)
 
 '''
